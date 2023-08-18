@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@600&family=Foldit&family=Oswald:wght@200&family=Roboto+Condensed:ital@1&family=Ysabeau:wght@300&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="header">
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">
+            <img src="./images/Main Logo.jpg" width="300px" height="80px" alt="">
+          </a>
+        
+        <ul class="nav d-flex flex-row fs-6 mt-3 me-5" type="none">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#mainImg">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#postsHead">BLOG POSTS</a>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-dark text-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      DESTINATIONS
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">AMERICAS</button></li>
+                      <li><button class="dropdown-item" type="button">ASIA</button></li>
+                      <li><button class="dropdown-item" type="button">CARIBBEAN</button></li>
+                      <li><button class="dropdown-item" type="button">EUROPEAN</button></li>
+                      <li><button class="dropdown-item" type="button">MIDDLE EAST</button></li>
+                      <li><button class="dropdown-item" type="button">OCEANIA</button></li>
+                    </ul>
+                  </div>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-dark text-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      CATEGORIES
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">BEACHES</button></li>
+                      <li><button class="dropdown-item" type="button">BUCKET LIST</button></li>
+                      <li><button class="dropdown-item" type="button">HIKES</button></li>
+                      <li><button class="dropdown-item" type="button">ITINERARIES</button></li>
+                      <li><button class="dropdown-item" type="button">MONUMENTS</button></li>
+                      <li><button class="dropdown-item" type="button">UNESCO</button></li>
+                      <li><button class="dropdown-item" type="button">VOLCANOES</button></li>
+                      <li><button class="dropdown-item" type="button">WATERFALLS</button></li>
+                      <li><button class="dropdown-item" type="button">WILDLIFE</button></li>
+                    </ul>
+                  </div>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-dark text-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      GALLERY
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">IMAGE GALLERY</button></li>
+                      <li><button class="dropdown-item" type="button">PHOTO ESSAYS</button></li>
+                      <li><button class="dropdown-item" type="button">MY CAMERA GEAR</button></li>
+                    </ul>
+                  </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#footer">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#getInTouch">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+      <div id="mainImg">
+        <h1><span style="font-size: 60px;">Adventure</span><br>like a Pro</h1>
+        <p>“When preparing to travel, lay out all your clothes and all your money. Then take half the clothes and twice the money.” - Susan Heller</p>
+        <!-- <a>Explore</a> -->
+      </div>
+
+      <div id="botAssist">
+        <a href="" id="a1"><i class="fa-solid fa-heart" style="color: red;"></i></a><br><br>
+        <a href="" id="a2"><i class="fa-solid fa-share" style="color: green;"></i></a>
+      </div>
+
+      <h2 id="postsHead">Latest Blog Posts</h2>
+      <div id="posts">
+        <div class="row" style="border-top: 1px solid black; margin-top: 40px;">
+          <div class="col">
+            <img src="./images/Blog posts/15 best things.jpg" class="rounded" alt="">
+            <div>
+            <p><a href="">15 Best Things To Do In Singapore Airport (Changi Layover)</a><br>
+            <span class="postDate">May 13, 2023</span><br>
+            The Singapore airport is a vacation in itself, and many of the best things to do in Singapore airport are free! Also known as Changi airport, it's …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Acatenango.jpg" class="rounded" alt="">
+            <div>
+            <p><a href="">Acatenango Volcano Hike: Volcan De Fuego Guatemala</a><br>
+            <span class="postDate">May 9, 2023</span><br>
+            The Acatenango volcano hike is a bucket list trek in Antigua, Guatemala where you can camp on top of a mountain and see frequent live eruptions from …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Breckenridge.jpeg" alt="">
+            <div>
+            <p><a href="">Breckenridge Troll Hike: Isak Heartstone Location & Directions</a><br>
+            <span class="postDate">May 7, 2023</span><br>
+            The Breckenridge troll hike is a fun, easy walk in Colorado where you can see a giant wooden troll named Isak Heartstone. The friendly troll in Breckenridge …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Colonia del.jpg" alt="">
+            <div>
+            <p><a href="">Colonia Del Sacramento Uruguay: Day Trip From Buenos Aires</a><br>
+            <span class="postDate">May 1, 2023</span><br>
+            The Colonia Del Sacramento is a quaint little town in Uruguay that’s easy to visit by driving from Montevideo, and you can even visit it on a …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/16 great zion.jpeg" alt="">
+            <div>
+            <p><a href="">16 Great Zion Hikes: Best Hikes In Zion National Park</a><br>
+            <span class="postDate">April 27, 2023</span><br>
+            Some of the best hikes in Zion National Park include famous Utah trails like Angels Landing, The Narrows, and Observation Point, but there are also some short …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/James bond.jpg" alt="">
+            <div>
+            <p><a href="">James Bond Island Thailand: Phang Nga Bay Tour (Phuket)</a><br>
+            <span class="postDate">April 19, 2023</span><br>
+            Thailand’s Phang Nga Bay is loaded with exotic island scenery, and one of the best things to see in the bay would have to be the famous …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Mount fitz.jpg" alt="">
+            <div>
+            <p><a href="">Mount Fitz Roy Patagonia: Laguna De Los Tres Hike (Argentina)</a><br>
+            <span class="postDate">April 15, 2023</span><br>
+            The famous Patagonia region of Argentina has some amazing hiking trails, but the very best would have to be the day hike to Mount Fitz Roy and …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Saltos del.jpg" alt="">
+            <div>
+            <p><a href="">Saltos Del Monday Paraguay Waterfall: Day Trip To Monday Falls</a><br>
+            <span class="postDate">April 1, 2023</span><br>
+            The Saltos Del Monday waterfall, also known as Monday Falls, is an impressive waterfall in Paraguay, not too far from the famous Iguazu Falls in Argentina and …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/17 best things.jpg" alt="">
+            <div>
+            <p><a href="">17 Best Things To Do In Aruba Island (Fun, Kids, Couples)</a><br>
+            <span class="postDate">March 25, 2023</span><br>
+            The little Caribbean island of Aruba is mainly known for its beautiful beaches and tropical weather, but there are also lots of fun things to do in …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Aruba beach.jpeg" alt="">
+            <div>
+            <p><a href="">Aruba Beaches Guide: 17 Best Beaches In Aruba</a><br>
+            <span class="postDate">March 23, 2023</span><br>
+            Even though the island of Aruba is pretty small and flat, there are still lots of nice Aruba beaches to enjoy, including some beautiful ones in the …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Castle de haar.jpg" alt="">
+            <div>
+            <p><a href="">Castle De Haar (Kasteel) Day Trip From Amsterdam Netherlands</a><br>
+            <span class="postDate">March 17, 2023</span><br>
+            The Kasteel / Castle De Haar is the biggest castle in the Netherlands, and it’s fairly easy to visit on a day trip from Amsterdam to Castle …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Iguazu falls.jpg" alt="">
+            <div>
+            <p><a href="">Iguazu Falls Argentina & Brazil Travel Guide (+Map)</a><br>
+            <span class="postDate">March 10, 2023</span><br>
+            Iguazu Falls is one of the world’s most spectacular and impressive waterfalls, straddling the border between Argentina and Brazil in South America. …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Maine light.jpg" alt="">
+            <div>
+            <p><a href="">Maine Lighthouses Map: The 15 Best Lighthouses In Maine</a><br>
+            <span class="postDate">March 4, 2023</span><br>
+            The lighthouses of Maine are full of history and they have amazing views of the Atlantic Ocean, so we took a big road trip across the entire …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Perito moreno.jpg" alt="">
+            <div>
+            <p><a href="">Perito Moreno Glacier View & Trek (El Calafate Argentina)</a><br>
+            <span class="postDate">February 21, 2023</span><br>
+            The Perito Moreno glacier is a natural wonder in Argentina made of big, blue, beautiful ice. In fact, this stunning glacier covers more surface area than the …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+          <div class="col">
+            <img class="rounded" src="./images/Blog posts/Tikal gua.jpeg" alt="">
+            <div>
+            <p><a href="">Tikal Guatemala Ruins: Map & How To Visit Tikal National Park</a><br>
+            <span class="postDate">February 14, 2023</span><br>
+            A visit to the Mayan ruins of Tikal Guatemala would have to be one of the most spectacular things you can do in Central America. Like something …
+          </p>
+            </div>
+            <div>
+              <button class="likeCom" style="width: 60px;"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="likeCom"><i class="fa-regular fa-comment"></i> Comment</button>
+            <button>READ MORE <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="getInTouch">
+        <a href="" id="contactMe">contact me</a>
+      </div>
+
+
+      <div id="carouselExampleControls" class="carousel slide bg-light mt-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <h2 class="mt-3">Books and Guides</h2>
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col">
+                <img src="./images/Travel books/BlueHighways.jpeg" alt="">
+                <div>
+                <p><b>Blue Highways</b><br><i>Blue Highways is an autobiographical travel book, published in 1982, by William Least Heat-Moon, born William Trogdon.</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/Travel books/In patagonia.jpeg" alt="">
+                <div>
+                <p><b>In Patagonia</b><br><i>In Patagonia is an English travel book by Bruce Chatwin, published in 1977, about Patagonia, the southern part of South America.</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/Travel books/dark star safari.jpeg" alt="">
+                <div>
+                <p><b>Dark Star Safari</b><br><i>Dark Star Safari (2002) is a written account of a trip taken by author Paul Theroux from Cairo to Cape Town via trains, buses, cars, and armed convoy</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img src="./images/Travel books/Down under.jpeg" alt="">
+                <div>
+                <p><b>Down Under</b><br><i>Down Under is the British title of a 2000 travelogue book about Australia written by best-selling travel writer Bill Bryson.</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/Travel books/Into the wild.jpeg" alt="">
+                <div>
+                <p><b>Into the Wild</b><br><i>Into the Wild is a 1996 non-fiction book written by Jon Krakauer. It is an expansion of a 9,000-word article by Krakauer on Chris McCandless titled "Death of an Innocent".</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/Travel books/On the road.jpeg" alt="">
+                <div>
+                <p><b>On the Road</b><br><i>On the Road is a 1957 novel by American writer Jack Kerouac, based on the travels of Kerouac and his friends across the United States. </i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img src="./images/Travel books/The road to oxiana.jpeg" alt="">
+                <div>
+                <p><b>The Road to Oxiana</b><br><i>The Road to Oxiana is a travelogue by the explorer Robert Byron, first published in 1937. It documents Byron's travels around Persia and Afghanistan.</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/Travel books/Thrilling cities.jpeg" alt="">
+                <div>
+                <p><b>Thrilling Cities</b><br><i>Thrilling Cities is the title of a travelogue by the James Bond author and The Sunday Times journalist Ian Fleming. The book was first published in the UK in November 1963 by Jonathan Cape.</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./images/Travel books/Tramp royale.jpeg" alt="">
+                <div>
+                <p><b>Tramp Royale</b><br><i>Tramp Royale is a nonfiction travelogue by science fiction writer Robert A. Heinlein, describing how he and his wife, Ginny, went around the world by ship and plane between 1953 and 1954.</i></p>
+                <center><button class="cart">Add to cart</button>
+                <button class="buy">Buy now</button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="newsLetter">
+        <h2>Newsletter</h2>
+        <p>Subscribe to my newsletter for the latest blog posts, tips, & travel guides. Let's stay updated!</p>
+        <div>
+          <input type="email" name="" id="emailID" placeholder="Email...">
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+
+      <footer class="text-center text-white" style="background-color: #2e2e2e;" id="footer">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-light m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-light m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-light m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-light m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-light m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-light m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a><br>
+          <p><a href="" style="color: rgb(255, 81, 0);"><i>Affiliate Disclosures</i></a> • <a href="" style="color: rgb(255, 81, 0);"><i>Privacy Policy</i></a> • <a href="" style="color: rgb(255, 81, 0);"><i>Terms Of Use</i></a></p>
+          <p><i>Some of the pages on my travel blog contain affiliate links. Whenever you buy something through one of these links, I get a small commission at no extra cost to you. As an affiliate, I only recommend products and services that I feel are high quality and helpful to my readers. Thanks for your support.</i></p>
+        </div>
+      </footer>
+</body>
+</html>

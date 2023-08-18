@@ -1,0 +1,311 @@
+.header{
+    position: sticky;
+    top: 0px;
+}
+.navbar .nav li a{
+    font-weight: 600;
+    width: auto;
+}
+.navbar .nav li .dropdown .btn{
+    font-weight: 600;
+    width: auto;
+    border: none;
+}
+.navbar .nav li a:hover{
+    font-weight: 700;
+    border-bottom: 1px double white;
+}
+.navbar .nav li .dropdown .btn:hover{
+    font-weight: 700;
+    border-bottom: 1px double white;
+    background: none;
+}
+
+#botAssist{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 80px;
+    right: 15px;
+    z-index: 1;
+}
+#botAssist a{
+    font-size: 25px;
+    margin-left: 1300px;
+    text-decoration: none;
+    /* background-color: white; */
+    padding: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 40px;
+}
+#botAssist a:hover{
+    background-color: rgb(0, 247, 255);
+}
+
+#mainImg{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://www.theplaidzebra.com/wp-content/uploads/2016/11/Ability-to-work-from-anywhere-in-the-world.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#mainImg h1{
+    margin-top: 50px;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-align: center;
+}
+#mainImg p{
+    color: white;
+    width: 380px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+/* #mainImg a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    width: 120px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+#mainImg a:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+
+#posts{
+    width: 100%;
+    height: 2100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2#postsHead{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    font-family: 'Dancing Script', cursive;
+}
+#posts .row{
+    width: 82.5%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    display: flex;
+}
+#posts .row .col{
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* #posts .row .col:hover{
+    box-shadow:1px 1px 10px gray;
+} */
+#posts .row .col img{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* border-radius: 10px; */
+}
+#posts .row .col p{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#posts .row .col p a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+#posts .row .col p a:hover{
+    color: rgba(0, 0, 0, 0.699);
+}
+#posts .row .col p span{
+    font-weight: normal;
+    color: orange;
+}
+#posts .row .col .likeCom{
+    width: 89px;
+    margin-right: 5px;
+    background: none;
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+}
+#posts .row .col .likeCom:hover{
+    background-color: rgb(228, 228, 228);
+    color: blue;
+}
+#posts .row .col button{
+    margin-top: 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    width: 120px;
+    height: 30px;
+    border-radius: 6px;
+}
+#posts .row .col button:hover{
+    background-color: rgba(255, 166, 0, 0.849);
+}
+
+
+#getInTouch{
+    width: 100%;
+    height: 475px;
+    background-image: url(./images/Get\ in\ touch.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+#getInTouch #contactMe{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #ff8a65;
+    margin-bottom: -70px;
+    margin-left: -279px;
+}
+
+
+.carousel{
+    border-radius: 40px; 
+}
+.carousel h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+.carousel .row{
+    width: 95%;
+    height: 290px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2.5%;
+}
+.carousel .row .col{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 28%;
+    height: 240px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+}
+.carousel .row .col:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+.carousel .row .col img{
+    width: 40%;
+    height: 220px;
+    margin-left: -5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.carousel .row .col p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Exo', sans-serif; */
+    height: 70%;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: justify;
+}
+.carousel .row .col p b{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carousel .row .col .cart{
+    width: 100px;
+    background-color: rgb(0, 156, 0);
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Exo', sans-serif; */
+}
+.carousel .row .col .buy{
+    width: 80px;
+    background-color: rgb(0, 156, 0);
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Exo', sans-serif; */
+}
+.carousel .row .col .cart:hover{
+    /* width: 120px; */
+    background-color: rgb(0, 238, 0);
+    color: white;
+}
+.carousel .row .col .buy:hover{
+    /* width: 90px; */
+    background-color: rgb(0, 238, 0);
+    color: white;
+}
+
+
+#newsLetter{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newsLetter h2{
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#newsLetter p{
+    color: gray;
+    font-style: italic;
+}
+#newsLetter #emailID{
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+}
+#newsLetter button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 6px;
+}
+#newsLetter button:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+}
